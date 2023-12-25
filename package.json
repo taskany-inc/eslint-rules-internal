@@ -1,0 +1,23 @@
+{
+  "name": "@taskany/eslint-plugin-rules",
+  "version": "0.0.1",
+  "description": "Taskany eslint rules",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc -p ./tsconfig.json",
+    "postbuild": "cp package.json README.md dist",
+    "clean": "rm -rf ./dist",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@typescript-eslint/utils": "^6.15.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT"
+}
