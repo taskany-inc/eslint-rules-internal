@@ -1,0 +1,11 @@
+## Summary
+
+Release type: __minor__. There are 0 BREAKING CHANGES and 1 features.
+
+## 0.1.0 (2023-12-25)
+
+
+### Features
+
+* init ([1833fec](https://github.com/taskany-inc/eslint-rules-internal/commit/1833fec82970ed869c0660cea5cebd34154d82a4))
+
