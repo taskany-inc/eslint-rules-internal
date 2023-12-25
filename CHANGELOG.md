@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit guidelines.
 
+## [0.1.3](https://github.com/taskany-inc/eslint-rules-internal/compare/v0.1.2...v0.1.3) (2023-12-25)
+
+
+### Bug Fixes
+
+* **package.json:** add dist folder to files field ([546d25d](https://github.com/taskany-inc/eslint-rules-internal/commit/546d25dad9900ac88a82cf49c4210b9f95d51d4b))
+
 ## [0.1.2](https://github.com/taskany-inc/eslint-rules-internal/compare/v0.1.1...v0.1.2) (2023-12-25)
 
 
